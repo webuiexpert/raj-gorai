@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/raj-gorai/static/css/main.9ad244f4.css",
-    "main.js": "/raj-gorai/static/js/main.8d6243fc.js",
+    "main.css": "/raj-gorai/static/css/main.3781de71.css",
+    "main.js": "/raj-gorai/static/js/main.e45106c7.js",
     "static/js/453.ea96ced6.chunk.js": "/raj-gorai/static/js/453.ea96ced6.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/raj-gorai/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/Raj-gorai-img.png": "/raj-gorai/static/media/Raj-gorai-img.9a03091ada4cb0fde482.png",
     "index.html": "/raj-gorai/index.html",
-    "main.9ad244f4.css.map": "/raj-gorai/static/css/main.9ad244f4.css.map",
-    "main.8d6243fc.js.map": "/raj-gorai/static/js/main.8d6243fc.js.map",
+    "main.3781de71.css.map": "/raj-gorai/static/css/main.3781de71.css.map",
+    "main.e45106c7.js.map": "/raj-gorai/static/js/main.e45106c7.js.map",
     "453.ea96ced6.chunk.js.map": "/raj-gorai/static/js/453.ea96ced6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ad244f4.css",
-    "static/js/main.8d6243fc.js"
+    "static/css/main.3781de71.css",
+    "static/js/main.e45106c7.js"
   ]
 }
