@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/raj-gorai/static/css/main.2643fac0.css",
-    "main.js": "/raj-gorai/static/js/main.8561fe14.js",
+    "main.css": "/raj-gorai/static/css/main.9af8b784.css",
+    "main.js": "/raj-gorai/static/js/main.c21c6a86.js",
     "static/js/453.ea96ced6.chunk.js": "/raj-gorai/static/js/453.ea96ced6.chunk.js",
     "static/media/casestudies-img.png": "/raj-gorai/static/media/casestudies-img.46f4fd3a607fbd7a97f6.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/raj-gorai/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
@@ -12,12 +12,12 @@
     "static/media/slick.ttf": "/raj-gorai/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/raj-gorai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/raj-gorai/index.html",
-    "main.2643fac0.css.map": "/raj-gorai/static/css/main.2643fac0.css.map",
-    "main.8561fe14.js.map": "/raj-gorai/static/js/main.8561fe14.js.map",
+    "main.9af8b784.css.map": "/raj-gorai/static/css/main.9af8b784.css.map",
+    "main.c21c6a86.js.map": "/raj-gorai/static/js/main.c21c6a86.js.map",
     "453.ea96ced6.chunk.js.map": "/raj-gorai/static/js/453.ea96ced6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2643fac0.css",
-    "static/js/main.8561fe14.js"
+    "static/css/main.9af8b784.css",
+    "static/js/main.c21c6a86.js"
   ]
 }
