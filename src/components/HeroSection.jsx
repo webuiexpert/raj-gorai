@@ -7,13 +7,14 @@ function HeroSection() {
       <div className="textSection text-white lg:text-[46px] text-[28px] font-extrabold lg:leading-[52px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
         <h2 className="">Hello,</h2>
         <h2 className="">I am Raj Gorai, </h2>
-        <h2 className="">a Digital Marketing & Sales</h2>
-        <h2 className="">Strategiest from India.</h2>
+        <h2 className="lg:block hidden">a Digital Marketing & Sales</h2>
+        <h2 className="lg:block hidden">Strategiest from India.</h2>
+        <h2 className="lg:hidden block">a Digital Marketing & Sales Strategiest from India.</h2>
         <h5 className="lg:my-4 lg:w-[738px] lg:text-[24px] text-[18px] font-extrabold lg:leading-[1.2em]">
           Wants to boost your brand identity/sales or Rank higher on Google? No
           problem.
         </h5>
-        <div className="btnBox mt-10 gap-10 lg:flex justify-between">
+        <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex justify-between">
           <div className="letGoBtn w-fit relative">
             <button className="text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
               Lets Connect

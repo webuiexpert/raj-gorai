@@ -12,7 +12,7 @@ function AboutSection() {
           <h2 className="lg:text-[30px] text-[22px]  leading-7 md:leading-12 lg:leading-[1.87em] font-extrabold">
             Digital Marketing & Sales Strategist
           </h2>
-          <p className="lg:text-[18px] text-[16px] leading-[1.4em] lg:mt-0 mt-2">
+          <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em]  lg:mt-0 mt-2">
             My primary objective as a Digital Marketing & Sales Strategist is to
             create vibrant and brilliant visual content in marketing the
             company’s brands and services. I have competent k.nowledge and
@@ -22,7 +22,7 @@ function AboutSection() {
             optimization by using latest digital marketing trends and digital
             brand optimization strategies.
           </p>
-          <p className="lg:text-[18px] text-[16px] leading-[1.4em]] mt-5 pr-4">
+          <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em] mt-5 pr-4">
             I am also very well versed in managing SEO and PPC campaigns, have a
             solid grasp of web analytics and have a strong understanding of
             online marketing concepts, procedures, strategies, project road map

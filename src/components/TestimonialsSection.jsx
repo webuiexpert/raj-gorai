@@ -76,23 +76,23 @@ function TestimonialsSection() {
   };
   return (
     <div className="w-full h-auto">
-      <div className="max-w-[1320px] mx-auto text-white lg:pb-20 lg:py-0 py-10 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
+      <div className="max-w-[1320px] mx-auto text-white lg:pb-20 lg:py-0 pt-5 pb-10 lg:pt-0 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
         
         <div className="testCols grid grid-cols-1">
         <h2 className="lg:text-5xl text-[42px] leading-[1.2em] text-black text-start font-extrabold ">Testimonials</h2>
-        <h3 className="lg:text-5xl text-[24px] text-black text-start font-medium ">Trusted by over <span className="font-extrabold italic text-[#023c4e]">1000+</span> business owners</h3>
+        <h3 className="lg:text-5xl leading-7 text-[24px] text-black text-start font-medium ">Trusted by over <span className="font-extrabold italic text-[#023c4e]">1000+</span> business owners</h3>
           <Slider {...settings}>
             {data.map((d, index) => (
               <div
                 key={index}
-                className="shadow-sm border drop-shadow-2xl p-7 rounded-lg h-[420px] mt-10"
+                className="shadow-sm border drop-shadow-2xl lg:p-7 p-4 rounded-lg min-h-[420px] lg:mt-10 mt-5"
               >
                 <img src={d.Starsimg} alt="Stars-Img" />
-                <p className="text-gray-600 my-10">{d.reviews}</p>
+                <p className="text-gray-600 lg:text-[18px] text-[16px] my-10">{d.reviews}</p>
                 <div className="clientdetsBox text-black flex items-start gap-5">
                   <img src={d.ClientImg} alt="" className="size-12" />
                   <div className="clientName">
-                    <h5>{d.title}</h5>
+                    <h5 className="font-bold text-black text-[18px]">{d.title}</h5>
                     <p>{d.subtitle}</p>
                   </div>
                 </div>

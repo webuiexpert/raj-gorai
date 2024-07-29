@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <>
-    <div className="lg:max-w-[1320px] mx-auto flex items-end justify-between py-10">
+    <div className="lg:max-w-[1320px] mx-auto flex items-end justify-between lg:py-10 py-5">
         <div className="logo">
             <img className="lg:w-[100%] w-[50%]" src={logoImg} alt="" />
         </div>
