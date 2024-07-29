@@ -9,10 +9,11 @@ import CasestudiesSection from './components/CasestudiesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import ResultSection from './components/ResultSection'
 import ContactSection from './components/ContactSection'
+import CandlySection from './components/CandlySection'
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <div className="w-[100%] bg-[#1e1e79] md:px-8 sm:px-6 px-4">
       <Navbar />
       <HeroSection />
@@ -25,6 +26,7 @@ function App() {
       <TestimonialsSection />
       <ResultSection />
       <ContactSection />
+      <CandlySection />
     </div>
   )
 }
