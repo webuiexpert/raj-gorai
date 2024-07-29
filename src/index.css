@@ -16,3 +16,50 @@ html, body{
     height: 100%;
     width: 100%;
     }
+
+.colBox .box ul li{
+    background-image: url(./assets/checkIcon.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position-y: 5px ;
+    padding-left: 40px;
+    background-size: 30px;
+    line-height: 1.3em;
+    font-size: 16px;
+    margin-top: 10px;
+    color:#eeeeee;
+}
+.slick-slide > div {
+    margin: 0 20px;
+    margin-left: 0;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 28px !important;
+    line-height: 1;
+    opacity: .75;
+    color: #fff !important;
+    background: #000;
+    border-radius: 50%;
+}
+
+.slick-prev {
+    left: -50px !important;
+}
+.slick-next {
+    right: -50px !important;
+}
+.slick-dots{
+    display: none !important;
+}
+
+
+@media (320px <= width <= 800px){
+    .slick-prev:before, .slick-next:before{
+        display: none;
+    }
+    .slick-dots{
+        display: block !important;
+        padding-top: 10px !important;
+    }
+}
