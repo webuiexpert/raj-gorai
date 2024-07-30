@@ -45,7 +45,7 @@ function CasestudiesSection() {
                   the client’s website, where the users were extracting or
                   bouncing back through an automated tool.
                 </p>
-                <a href="martialartsmart-shoping.pdf" download><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
+                <a href="https://www.thecsshouse.com/casestudies/google/martialartsmart-shoping.pdf" target="_blank"><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
                   See full case study
                 </button></a>
               </div>
@@ -67,7 +67,7 @@ function CasestudiesSection() {
                 <p className="lg:text-[18px] text-[16px]">
                 We recommended to run their SEO, PPC campaigns. Luxury candle brands were not running and Google Feeds/PLA campaigns.
                 </p>
-                <a href="Luxury-Candle-Brands-site-shoping.pdf" download><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
+                <a href="https://www.thecsshouse.com/casestudies/google/Luxury-Candle-Brands-site-shoping.pdf" target="_black"><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
                   See full case study
                 </button></a>
               </div>

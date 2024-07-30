@@ -6,8 +6,8 @@ import { motion } from "framer-motion"
 
 function HeroSection() {
   return (
-    <div className="max-w-[1320px] mx-auto lg:py-8 py-6 flex lg:flex-row md:flex-row  flex-col-reverse lg:gap-0 gap-5">
-      <motion.div className="textSection text-white lg:text-[46px] text-[28px] font-extrabold lg:leading-[52px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
+    <div className="max-w-[1320px] mx-auto lg:py-10 py-7 flex lg:flex-row md:flex-row  flex-col-reverse lg:gap-0 gap-5">
+      <motion.div className="textSection text-white lg:text-[52px] text-[28px] font-extrabold lg:leading-[56px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
         <h2 className="">Hello,</h2>
         <h2 className="">I am Raj Gorai, </h2>
         <h2 className="lg:block hidden">a Digital Marketing & Sales</h2>

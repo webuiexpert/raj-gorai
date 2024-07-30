@@ -17,6 +17,8 @@ html,
 body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
+
 }
 
 .colBox .box ul li {
@@ -119,6 +121,22 @@ input, textarea{
 
 .nav ul.open{
     display: flex;
+}
+
+
+.gotopBtn svg{
+  animation: gotop 1.2s linear infinite alternate-reverse;
+}
+
+@keyframes gotop{
+
+0% {
+    transform: translateY(-0.2rem);
+}
+100% {
+    transform: translateY(0.2rem);
+}
+
 }
 
 @media (320px <= width <=800px) {

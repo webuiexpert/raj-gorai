@@ -32,7 +32,7 @@ function AboutSection() {
             web support
           </p>
           <button className="mt-5 text-[18px] leading-8 px-8 py-2 border text-white font-bold bg-[#13a300]">
-            <a href="url.pdf" download>Download Resume</a>
+            <a href="https://www.thecsshouse.com/wp-content/uploads/2024/07/Raj__Gorai_-_Digital_Marketing__Sales_Strategist_Freelancer.pdf" target="_black">Download Resume</a>
           </button>
         </div>
         <div className="expYear lg:w-1/2 lg:pl-10 flex text-[14px] flex-col gap-5">

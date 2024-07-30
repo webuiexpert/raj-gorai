@@ -1,36 +1,39 @@
 import React, { useState } from "react";
-import logoImg from "../assets/logo.png";
+import logoImg from "../assets/logo1.png";
 import { PopupButton } from "react-calendly";
+import Headroom from "react-headroom";
 
 function Navbar() {
   const [menuOpen, SetmenuOpen] = useState(false);
 
   return (
     <>
-      <div className="nav lg:max-w-[1320px] mx-auto flex items-end justify-between lg:pt-6 lg:pb-7 py-5">
+    <Headroom>
+      <div className="nav bg-[#1e1e79] w-[100%] lg:px-0 px-4 py-5">
+      <div className="nav bg-[#1e1e79] lg:max-w-[1320px] mx-auto flex items-end justify-between">
         <div className="logo">
           <img
-            className="lg:w-[90%] w-[50%] sm:w-[70%] md:w-[80%]"
+            className="lg:w-[80%] w-[50%] sm:w-[70%] md:w-[80%]"
             src={logoImg}
             alt=""
           />
         </div>
-        <div className="flex gap-7 items-end lg:w-auto w-[50%]">
-          <ul className="hidden sm:hidden md:hidden lg:flex items-center gap-7  text-[20px] text-white font-semibold font-[Montserrat] ">
+        <div className="flex gap-7 items-center lg:w-auto w-[50%]">
+          <ul className="hidden sm:hidden md:hidden lg:flex items-center gap-7 text-[20px] text-white font-semibold font-[Montserrat] ">
             <a href="#about">
-              <li>About</li>
+              <li className="leading-[18px]">About</li>
             </a>
             <a href="#expertise">
-              <li>Expertise</li>
+              <li className="leading-[18px]">Expertise</li>
             </a>
             <a href="#reviews">
-              <li>Reviews</li>
+              <li className="leading-[18px]">Reviews</li>
             </a>
             <a href="#casestudies">
-              <li>Casestudies</li>
+              <li className="leading-[18px]">Casestudies</li>
             </a>
             <a href="#contact">
-              <li>Contact</li>
+              <li className="leading-[18px]">Contact</li>
             </a>
           </ul>
           <PopupButton
@@ -43,6 +46,8 @@ function Navbar() {
 
      
       </div>
+      </div>
+      </Headroom>
     </>
   );
 }

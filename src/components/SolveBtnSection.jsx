@@ -5,9 +5,8 @@ import { PopupButton } from "react-calendly";
 function SolveBtnSection() {
   return (
     <div className="solveBtn w-full bg-[#174153] lg:py-20 py-10 flex flex-col items-center lg:px-0 md:px-8 sm:px-6 px-4">
-      <h2 className="lg:text-4xl text-[24px] leading-[1.2em] text-center font-bold text-white">
-        Worried about how to grow your business Online?
-      </h2>
+      <h2 className="lg:text-4xl text-[24px] leading-[1.4em] text-center font-bold text-white">
+        Worried about how to grow your business Online?</h2>
       <h2 className="lg:text-4xl text-[24px] text-center font-bold text-white">
         Let's Solve your problem.
       </h2>

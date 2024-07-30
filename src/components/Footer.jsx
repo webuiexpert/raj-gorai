@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import WhatsAppbtn from "./WhatsAppbtn";
+import GotoTopBtn from "./GotoTopBtn";
 
 
 
@@ -16,8 +17,11 @@ function Footer() {
         <a className="hover:-mt-1 duration-500 " href="#"><FaLinkedinIn /></a> 
         </div>
       </div>
-      <div className="whatsaapDiv fixed right-10 bottom-3">
+      <div className="whatsaapDiv fixed right-16 bottom-3">
       <WhatsAppbtn />
+      </div>
+      <div className="whatsaapDiv fixed right-2 bottom-4">
+      <GotoTopBtn />
       </div>
       
     </div>
