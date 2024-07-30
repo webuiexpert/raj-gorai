@@ -1,4 +1,6 @@
 import React from 'react'
+import { PopupButton } from "react-calendly";
+
 
 function MoreSalesSection() {
   return (
@@ -7,10 +9,13 @@ function MoreSalesSection() {
     Want More Sales?
     </h2>
     <p className="lg:text-[18px] text-[16px] text-center">Get your free proposal on how I can help you with that!</p>
-    <button className="lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]">
-      Book an Appointment Today!!
-    </button>
-    <h3 className="italic font-bold lg:text-2xl text-[18px] leading-[1.8em] mt-2 text-center">or connect me <a href="#">+91-9515455662</a></h3>
+    <PopupButton
+              className="lg:mt-10 mt-5 lg:text-[18px] text-[16px] leading-8 lg:px-14 px-8 py-2 border text-white font-bold bg-[#13a300]"
+              url="https://calendly.com/auditseoexperts"
+              rootElement={document.getElementById("root")}
+              text="Book an Appointment Today!!"
+            /> 
+    <h3 className="italic font-bold lg:text-2xl text-[18px] leading-[1.8em] mt-2 text-center">or connect me <a href="tel:+91-9115144232">+91-9115144232</a></h3>
     
 
   </div>

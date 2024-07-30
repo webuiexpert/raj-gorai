@@ -3,7 +3,7 @@ import React from 'react'
 
 function ExpertiesSection() {
   return (
-    <div className="min-h-screen w-full bg-[#1e3579]">
+    <div id="expertise" className="h-auto w-full bg-[#1e3579]">
         <div className="max-w-[1320px] mx-auto flex justify-between items-start lg:py-20 py-10 gap-10 flex-col  lg:px-0 md:px-8 sm:px-6 px-4">
             <h2 className="lg:text-[42px] text-[32px] font-extrabold text-white leading-10">SEO Experties I have</h2>
             <div className="colBox lg:mt-5 w-full lg:grid grid-cols-3 gap-x-7 text-white">

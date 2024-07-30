@@ -37,8 +37,7 @@ body {
     margin-left: 0;
 }
 
-.slick-prev:before,
-.slick-next:before {
+.slick-prev:before, .slick-next:before {
     font-family: 'slick';
     font-size: 28px !important;
     line-height: 1;
@@ -118,7 +117,11 @@ input, textarea{
     color: #fff;
 }
 
-@media (320px <=width <=800px) {
+.nav ul.open{
+    display: flex;
+}
+
+@media (320px <= width <=800px) {
 
     .slick-prev:before,
     .slick-next:before {

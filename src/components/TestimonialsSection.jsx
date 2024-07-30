@@ -7,35 +7,40 @@ import Stars from "../assets/stars.png";
 
 const data = [
   {
-    title: "John Doe",
-    subtitle: "Lorem ipsum dolor",
+    title: "Jeff",
+    subtitle: "Marketing Director",
     ClientImg: ClientImg1,
-    reviews:
-      "Since using MyKids.Club, I have real time information on the bookings in my class, I know that the information provided is complete as without it a booking cannot be made. Its easier for me to manage my accounts as all the payments are automated.",
+    reviews:"Rajesh was a pleasure to work with and I will use him again-",
     Starsimg: Stars,
   },
   {
-    title: "John Doe1",
-    subtitle: "Lorem ipsum dolor",
+    title: "Juan",
+    subtitle: "Project Account Manager",
     ClientImg: ClientImg1,
-    reviews:
-      "Since using MyKids.Club, I have real time information on the bookings in my class, I know that the information provided is complete as without it a booking cannot be made. Its easier for me to manage my accounts as all the payments are automated.",
+    reviews: "Rajesh is exceptional at what he does. It was a real pleasure meeting him and working with him. I would highly recommend Rajesh for Local SEO needs. We were more than pleased with the work he provided us. Looking forward to working with him again soon.",
     Starsimg: Stars,
   },
   {
-    title: "John Doe2",
-    subtitle: "Lorem ipsum dolor",
+    title: "Yashveer",
+    subtitle: "Project Manager",
     ClientImg: ClientImg1,
-    reviews:
-      "MyKid.Club has helped me optimize my classes! The extracurricular marketplace has helped me attract new clients and better understand my competition. I’ve adapted some of my class contents and optimized my class timetable!",
+    reviews: "Raj was very helpful and proactive in doing his job. He took initiatives and delivered really good results.",
     Starsimg: Stars,
   },
   {
-    title: "John Doe3",
-    subtitle: "Lorem ipsum dolor",
+    title: "Mario",
+    subtitle: "Creative Director",
     ClientImg: ClientImg1,
     reviews:
-      "Since using MyKids.Club, I have real time information on the bookings in my class, I know that the information provided is complete as without it a booking cannot be made. Its easier for me to manage my accounts as all the payments are automated.",
+      "Raj is fantastic. He took care of everything we needed. After talking to him for 15 minutes and going through his processes during our initial call, you knew that he was more than capable. His completion time and efficiency are also phenomenal. I will definitely be going back to him!",
+    Starsimg: Stars,
+  },
+  {
+    title: "Krunal",
+    subtitle: "Ecommerce Director",
+    ClientImg: ClientImg1,
+    reviews:
+      "Raj was extremely knowledgeable and professional. He was thorough in his communication, easy to work with, and great with His management of all deliverables.",
     Starsimg: Stars,
   },
 ];
@@ -75,7 +80,7 @@ function TestimonialsSection() {
     ],
   };
   return (
-    <div className="w-full h-auto">
+    <div id="reviews" className="w-full h-auto">
       <div className="max-w-[1320px] mx-auto text-white lg:pb-20 lg:py-0 pt-5 pb-10 lg:pt-0 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
         
         <div className="testCols grid grid-cols-1">
@@ -85,12 +90,11 @@ function TestimonialsSection() {
             {data.map((d, index) => (
               <div
                 key={index}
-                className="shadow-sm border drop-shadow-2xl lg:p-7 p-4 rounded-lg min-h-[420px] lg:mt-10 mt-5"
-              >
+                className="shadow-sm border drop-shadow-2xl lg:p-6 p-4 rounded-lg min-h-[420px] lg:mt-10 mt-5"
+              >   
                 <img src={d.Starsimg} alt="Stars-Img" />
-                <p className="text-gray-600 lg:text-[18px] text-[16px] my-10">{d.reviews}</p>
+                <p className="text-gray-600 lg:text-[18px] text-[16px] my-8">{d.reviews}</p>
                 <div className="clientdetsBox text-black flex items-start gap-5">
-                  <img src={d.ClientImg} alt="" className="size-12" />
                   <div className="clientName">
                     <h5 className="font-bold text-black text-[18px]">{d.title}</h5>
                     <p>{d.subtitle}</p>

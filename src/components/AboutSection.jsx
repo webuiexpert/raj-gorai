@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="w-full">
+    <div id="about" className="w-full">
       <div className="max-w-[1320px] mx-auto flex justify-between items-start lg:py-20 py-10 gap-10 lg:flex-row flex-col lg:px-0  md:px-8 sm:px-6 px-4">
         <div className="expText lg:w-1/2">
           <h2 className="lg:text-[42px] text-[32px] md:leading-9 font-extrabold">

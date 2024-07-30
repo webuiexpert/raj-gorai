@@ -1,10 +1,13 @@
 import React from "react";
 import PersonalImage from "../assets/Raj-gorai-img.png";
+import { PopupButton } from "react-calendly";
+import { motion } from "framer-motion"
+
 
 function HeroSection() {
   return (
-    <div className="max-w-[1320px] mx-auto py-5 flex lg:flex-row md:flex-row  flex-col-reverse lg:gap-0 gap-5">
-      <div className="textSection text-white lg:text-[46px] text-[28px] font-extrabold lg:leading-[52px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
+    <div className="max-w-[1320px] mx-auto lg:py-8 py-6 flex lg:flex-row md:flex-row  flex-col-reverse lg:gap-0 gap-5">
+      <motion.div className="textSection text-white lg:text-[46px] text-[28px] font-extrabold lg:leading-[52px] lg:w-[70%] md:w-[60%] w-full flex flex-col items-start justify-center">
         <h2 className="">Hello,</h2>
         <h2 className="">I am Raj Gorai, </h2>
         <h2 className="lg:block hidden">a Digital Marketing & Sales</h2>
@@ -16,9 +19,10 @@ function HeroSection() {
         </h5>
         <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex justify-between">
           <div className="letGoBtn w-fit relative">
+            <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0">
             <button className="text-[18px] leading-8 px-8 py-2 border bg-[#13a300]">
               Lets Connect
-            </button>
+            </button></a>
             <svg
               className="absolute top-0 right-0 lg:-translate-y-1 -translate-y-2  translate-x-1"
               width="30px"
@@ -63,15 +67,19 @@ function HeroSection() {
             </svg>
           </div>
           <div className="lg:mt-0 mt-4 appontBtn">
-            <button className="text-[18px] leading-8 px-4 py-2 border">
-              or Book an Appointment
-            </button>
+          <PopupButton
+              className="text-[18px] leading-8 px-4 py-2 border"
+              url="https://calendly.com/auditseoexperts"
+              rootElement={document.getElementById("root")}
+              text="Book an Appointment"
+            />
           </div>
         </div>
-      </div>
-      <div className="personalImg lg:w-[30%] md:w-[40%] w-full">
+      </ motion.div>
+      <motion.div initial={{x:100}} animate={{ x: 0 }}
+  transition={{ ease: "easeOut", duration: 2 }} className="personalImg lg:w-[30%] md:w-[40%] w-full">
         <img className="w-full" src={PersonalImage} alt="" />
-      </div>
+      </ motion.div>
     </div>
   );
 }

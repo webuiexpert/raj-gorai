@@ -1,5 +1,6 @@
 import React from "react";
 import CaseStudiesImg from "../assets/casestudies-img.png";
+import CaseStudiesImg1 from "../assets/casestudies-img1.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -13,7 +14,7 @@ function CasestudiesSection() {
     slidesToScroll: 1,
   };
   return (
-    <div className="w-full h-auto">
+    <div id="casestudies" className="w-full h-auto">
       <div className="max-w-[1320px] mx-auto text-white lg:py-20 py-10 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
         <h2 className="lg:text-[34px] text-[30px] leading-[1.2em] text-black text-start font-extrabold">
           Proven PPC/SEO Results and Casestudies
@@ -31,72 +32,47 @@ function CasestudiesSection() {
               <div className="textCol lg:w-[50%] text-black">
                 <h2 className="lg:text-3xl text-2xl font-bold">Challenge</h2>
                 <p className="lg:text-[18px] text-[16px] leading-[1.4em]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis quisquam ratione culpa neque accusantium nisi
-                  facere dolorem animi? Non, praesentium. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit. Placeat, voluptates!{" "}
+                  Being in a highly competitive industry – the sports products,
+                  the client was not able to get the desired number of clicks
+                  for the targeted keywords in both organic as well as paid
+                  search results.
                 </p>
-                <h2 className="lg:text-3xl text-2xl font-bold mt-3">Solution</h2>
+                <h2 className="lg:text-3xl text-2xl font-bold mt-3">
+                  Solution
+                </h2>
                 <p className="lg:text-[18px] text-[16px] leading-[1.4em]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  architecto laborum recusandae ducimus corporis fugiat sint,
-                  consequatur explicabo rem perferendis Non, praesentium. Lorem
-                  ipsum dolor sit amet?
+                  The first thing we did was monitoring all the activities on
+                  the client’s website, where the users were extracting or
+                  bouncing back through an automated tool.
                 </p>
-                <button className="bg-[#14a800] px-10 rounded-full py-3 text-white font-semibold mt-5">
+                <a href="martialartsmart-shoping.pdf" download><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
                   See full case study
-                </button>
+                </button></a>
               </div>
             </div>
             <div className="slideCol w-full flex lg:flex-row flex-col items-center justify-between border-black gap-10">
               <div className="imgCol lg:w-[50%]">
-                <img src={CaseStudiesImg} alt="" />
+                <img src={CaseStudiesImg1} alt="" />
               </div>
               <div className="textCol lg:w-[50%] text-black">
                 <h2 className="text-3xl font-bold">Challenge</h2>
                 <p className="lg:text-[18px] text-[16px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis quisquam ratione culpa neque accusantium nisi
-                  facere dolorem animi? Non, praesentium. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit. Placeat, voluptates!{" "}
+                  Client wanted to increase sales and revenues. The client had
+                  used few companies and were spending around $2000 per month
+                  and were getting very little conversion. Luxury Candle Brands
+                  being in a quite competitive industry had a big challenge of
+                  ramping up their sales and revenues.
                 </p>
                 <h2 className="text-3xl font-bold mt-3">Solution</h2>
                 <p className="lg:text-[18px] text-[16px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  architecto laborum recusandae ducimus corporis fugiat sint,
-                  consequatur explicabo rem perferendis Non, praesentium. Lorem
-                  ipsum dolor sit amet?
+                We recommended to run their SEO, PPC campaigns. Luxury candle brands were not running and Google Feeds/PLA campaigns.
                 </p>
-                <button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
+                <a href="Luxury-Candle-Brands-site-shoping.pdf" download><button className="bg-[#14a800] px-10 rounded-full py-3 lg:mb-0 mb-10 text-white font-semibold mt-5">
                   See full case study
-                </button>
+                </button></a>
               </div>
             </div>
-            <div className="slideCol w-full flex lg:flex-row flex-col items-center justify-between border-black gap-10">
-              <div className="imgCol lg:w-[50%]">
-                <img src={CaseStudiesImg} alt="" />
-              </div>
-              <div className="textCol lg:w-[50%] text-black">
-                <h2 className="text-3xl font-bold">Challenge</h2>
-                <p className="lg:text-[18px] text-[16px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis quisquam ratione culpa neque accusantium nisi
-                  facere dolorem animi? Non, praesentium. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit. Placeat, voluptates!{" "}
-                </p>
-                <h2 className="text-3xl font-bold mt-3">Solution</h2>
-                <p className="lg:text-[18px] text-[16px]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                  architecto laborum recusandae ducimus corporis fugiat sint,
-                  consequatur explicabo rem perferendis Non, praesentium. Lorem
-                  ipsum dolor sit amet?
-                </p>
-                <button className="bg-[#14a800] px-10 rounded-full py-3 text-white font-semibold mt-5">
-                  See full case study
-                </button>
-              </div>
-            </div>
-        
+            
           </Slider>
         </div>
       </div>
