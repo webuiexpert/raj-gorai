@@ -10,7 +10,6 @@ import TestimonialsSection from './components/TestimonialsSection'
 import ResultSection from './components/ResultSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
-import LandingPages from './components/Marketing-projects/LandingPages'
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
       <SolveBtnSection />
       <ExpertiesSection />
       <MoreSalesSection />  
-      <LandingPages />
       <CasestudiesSection />
       <TestimonialsSection />
       <ResultSection />
