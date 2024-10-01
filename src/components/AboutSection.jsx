@@ -13,13 +13,23 @@ function AboutSection() {
             Digital Marketing & Sales Strategist
           </h2>
           <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em]  lg:mt-0 mt-2">
-          With over 12 years of experience, I specialize in crafting effective digital marketing strategies that drive results for both B2B and B2C brands. My goal is to deliver impactful and engaging content that elevates brand visibility and accelerates growth.
+            My primary objective as a Digital Marketing & Sales Strategist is to
+            create vibrant and brilliant visual content in marketing the
+            company’s brands and services. I have competent k.nowledge and
+            dexterity in creating strategies and project roadmap using the
+            latest technology in digital marketing. I am very adept in brand
+            optimization and having good experience in B2B and B2C brand
+            optimization by using latest digital marketing trends and digital
+            brand optimization strategies.
           </p>
           <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em] mt-5 pr-4">
-          I’m skilled at developing strategies and project roadmaps using the latest trends and tools in digital marketing. My expertise spans across brand optimization, SEO, PPC campaign management, and advanced web analytics, allowing me to create tailored strategies that boost online presence and performance.
-          </p>
-          <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em] mt-5 pr-4">
-          Whether it's running successful SEO and PPC campaigns, optimizing user journeys, or leading social media, content, and email marketing initiatives, I’ve successfully managed multiple projects that have led to measurable improvements in brand awareness and business outcomes.
+            I am also very well versed in managing SEO and PPC campaigns, have a
+            solid grasp of web analytics and have a strong understanding of
+            online marketing concepts, procedures, strategies, project road map
+            creation, and practices. I have more than 12 years of experience to
+            manage multiple online projects that include SEO, social media,
+            content delivery, email campaigns, user journey optimization, and
+            web support
           </p>
           <button className="mt-5 text-[18px] leading-8 px-8 py-2 border text-white font-bold bg-[#13a300]">
             <a href="https://www.thecsshouse.com/wp-content/uploads/2024/07/Raj__Gorai_-_Digital_Marketing__Sales_Strategist_Freelancer.pdf" target="_black">Download Resume</a>
