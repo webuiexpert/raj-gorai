@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/raj-gorai/static/css/main.a011dff3.css",
-    "main.js": "/raj-gorai/static/js/main.0259cc26.js",
+    "main.css": "/raj-gorai/static/css/main.213e8d15.css",
+    "main.js": "/raj-gorai/static/js/main.d9332831.js",
     "static/js/453.ea96ced6.chunk.js": "/raj-gorai/static/js/453.ea96ced6.chunk.js",
+    "static/media/casestudies-img.png": "/raj-gorai/static/media/casestudies-img.46f4fd3a607fbd7a97f6.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/raj-gorai/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/Raj-gorai-img.png": "/raj-gorai/static/media/Raj-gorai-img.9a03091ada4cb0fde482.png",
+    "static/media/casestudies-img1.png": "/raj-gorai/static/media/casestudies-img1.229b29f437d4a570699f.png",
+    "static/media/whatsapp.png": "/raj-gorai/static/media/whatsapp.c339ff504121f060e736.png",
+    "static/media/testimonial-img.png": "/raj-gorai/static/media/testimonial-img.8e428fea69271dc7d8f7.png",
+    "static/media/slick.svg": "/raj-gorai/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/raj-gorai/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/raj-gorai/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/raj-gorai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/raj-gorai/index.html",
-    "main.a011dff3.css.map": "/raj-gorai/static/css/main.a011dff3.css.map",
-    "main.0259cc26.js.map": "/raj-gorai/static/js/main.0259cc26.js.map",
+    "main.213e8d15.css.map": "/raj-gorai/static/css/main.213e8d15.css.map",
+    "main.d9332831.js.map": "/raj-gorai/static/js/main.d9332831.js.map",
     "453.ea96ced6.chunk.js.map": "/raj-gorai/static/js/453.ea96ced6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a011dff3.css",
-    "static/js/main.0259cc26.js"
+    "static/css/main.213e8d15.css",
+    "static/js/main.d9332831.js"
   ]
 }
