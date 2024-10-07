@@ -1,33 +1,31 @@
 {
   "files": {
-    "main.css": "/raj-gorai/static/css/main.0c03cf1c.css",
-    "main.js": "/raj-gorai/static/js/main.c8169484.js",
-    "static/js/453.7ca63b64.chunk.js": "/raj-gorai/static/js/453.7ca63b64.chunk.js",
-    "static/media/casestudies-img.png": "/raj-gorai/static/media/casestudies-img.46f4fd3a607fbd7a97f6.png",
+    "main.css": "/raj-gorai/static/css/main.0bea0a0e.css",
+    "main.js": "/raj-gorai/static/js/main.152de39e.js",
+    "static/js/453.ea96ced6.chunk.js": "/raj-gorai/static/js/453.ea96ced6.chunk.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/raj-gorai/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/Raj-gorai-img.png": "/raj-gorai/static/media/Raj-gorai-img.9a03091ada4cb0fde482.png",
+    "static/media/success-8.png": "/raj-gorai/static/media/success-8.bc4a8922ed00302289e2.png",
+    "static/media/success-6.png": "/raj-gorai/static/media/success-6.a6890835b8496acf5a40.png",
     "static/media/success-3.png": "/raj-gorai/static/media/success-3.07ae3165519cb755444e.png",
     "static/media/success-4.png": "/raj-gorai/static/media/success-4.589fdbc4eb9b412f56cc.png",
+    "static/media/success-7.png": "/raj-gorai/static/media/success-7.14c4208fbda3eb445b76.png",
     "static/media/success-2.png": "/raj-gorai/static/media/success-2.09fcfaf6db9911074ba8.png",
-    "static/media/casestudies-img1.png": "/raj-gorai/static/media/casestudies-img1.229b29f437d4a570699f.png",
+    "static/media/success-5.png": "/raj-gorai/static/media/success-5.cf5cc63a7ac39234b9fa.png",
     "static/media/success-1.png": "/raj-gorai/static/media/success-1.9e804ef542e4da773012.png",
     "static/media/whatsapp.png": "/raj-gorai/static/media/whatsapp.c339ff504121f060e736.png",
-    "static/media/success-7.jpg": "/raj-gorai/static/media/success-7.98b2f616211f9cf66035.jpg",
-    "static/media/success-8.jpg": "/raj-gorai/static/media/success-8.44965f92e924210c3203.jpg",
-    "static/media/success-6.jpg": "/raj-gorai/static/media/success-6.50c7be6ea40562c04a85.jpg",
-    "static/media/success-5.jpg": "/raj-gorai/static/media/success-5.08a5639d1292f5d28526.jpg",
     "static/media/testimonial-img.png": "/raj-gorai/static/media/testimonial-img.8e428fea69271dc7d8f7.png",
     "static/media/slick.svg": "/raj-gorai/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/raj-gorai/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/raj-gorai/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/raj-gorai/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/raj-gorai/index.html",
-    "main.0c03cf1c.css.map": "/raj-gorai/static/css/main.0c03cf1c.css.map",
-    "main.c8169484.js.map": "/raj-gorai/static/js/main.c8169484.js.map",
-    "453.7ca63b64.chunk.js.map": "/raj-gorai/static/js/453.7ca63b64.chunk.js.map"
+    "main.0bea0a0e.css.map": "/raj-gorai/static/css/main.0bea0a0e.css.map",
+    "main.152de39e.js.map": "/raj-gorai/static/js/main.152de39e.js.map",
+    "453.ea96ced6.chunk.js.map": "/raj-gorai/static/js/453.ea96ced6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c03cf1c.css",
-    "static/js/main.c8169484.js"
+    "static/css/main.0bea0a0e.css",
+    "static/js/main.152de39e.js"
   ]
 }
