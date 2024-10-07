@@ -78,7 +78,7 @@ function SeoResults() {
                 <img className='w-full' src={id.SRImg} alt="Stars-Img" />
                 <div className="textBox shadow-lg p-3 bg-white">
           <h5 className="font-bold text-black text-[18px]">{id.title}</h5>
-          <button className='py-1 px-3 my-4 bg-[#1E1E79] text-white text-[12px] rounded-full'><a href={id.domain} target="_blank">Click Domian link</a></button> 
+          <button className='py-1 px-3 my-4 bg-[#1E1E79] text-white text-[12px] rounded-full'><a href={id.domain} target="_blank">Visit Website</a></button> 
           <ul>
             
                 {

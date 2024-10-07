@@ -11,6 +11,7 @@ import ResultSection from './components/ResultSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import SeoResults from './components/SeoResults'
+import CaseStudies from './components/CaseStudies'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <MoreSalesSection />  
       {/* <CasestudiesSection /> */}
       <SeoResults />
+      <CaseStudies />
       <TestimonialsSection />
       <ResultSection />
       <ContactSection />
