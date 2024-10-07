@@ -10,6 +10,7 @@ import TestimonialsSection from './components/TestimonialsSection'
 import ResultSection from './components/ResultSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import SeoResults from './components/SeoResults'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ExpertiesSection />
       <MoreSalesSection />  
       <CasestudiesSection />
+      <SeoResults />
       <TestimonialsSection />
       <ResultSection />
       <ContactSection />

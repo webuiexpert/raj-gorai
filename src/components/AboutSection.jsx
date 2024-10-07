@@ -13,7 +13,7 @@ function AboutSection() {
             Digital Marketing & Sales Strategist
           </h2>
           <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em]  lg:mt-0 mt-2">
-          With over 12 years of experience, I specialize in crafting effective digital marketing strategies that drive results for both B2B and B2C brands. My goal is to deliver impactful and engaging content that elevates brand visibility and accelerates growth.
+          With over 13+ years of experience, I specialize in crafting effective digital marketing strategies that drive results for both B2B and B2C brands. My goal is to deliver impactful and engaging content that elevates brand visibility and accelerates growth.
           </p>
           <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em] mt-5 pr-4">
           I’m skilled at developing strategies and project roadmaps using the latest trends and tools in digital marketing. My expertise spans across brand optimization, SEO, PPC campaign management, and advanced web analytics, allowing me to create tailored strategies that boost online presence and performance.
@@ -61,20 +61,6 @@ function AboutSection() {
             </div>
             <h4 className="lg:text-[20px] text:[18px] font-bold">
             Digital Marketing Executive at Wwics.
-            </h4>
-            <p className="lg:text-[16px] text-[14px] text-[#2d2d2d]">
-              I worked as Manager of SEO. Leading a Team of 10+ SEO specialists
-              & 20 active clients.
-            </p>
-          </div>
-          <div className="08-11 flex flex-col items-start">
-            <div className="innerCol flex items-center gap-2">
-              <h3 className="text-[26px] leading-[1em] font-bold">2008</h3>
-              <div className="w-7 h-[3px] bg-black"></div>
-              <h3 className="text-[26px] font-bold leading-[1em]">2011</h3>
-            </div>
-            <h4 className="lg:text-[20px] text:[18px] font-bold">
-            SEO Executive at Net Magic, Chandigarh
             </h4>
             <p className="lg:text-[16px] text-[14px] text-[#2d2d2d]">
               I worked as Manager of SEO. Leading a Team of 10+ SEO specialists
