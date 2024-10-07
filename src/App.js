@@ -5,7 +5,7 @@ import AboutSection from './components/AboutSection'
 import SolveBtnSection from './components/SolveBtnSection'
 import ExpertiesSection from './components/ExpertiesSection'
 import MoreSalesSection from './components/MoreSalesSection'
-import CasestudiesSection from './components/CasestudiesSection'
+// import CasestudiesSection from './components/CasestudiesSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import ResultSection from './components/ResultSection'
 import ContactSection from './components/ContactSection'
@@ -23,7 +23,7 @@ function App() {
       <SolveBtnSection />
       <ExpertiesSection />
       <MoreSalesSection />  
-      <CasestudiesSection />
+      {/* <CasestudiesSection /> */}
       <SeoResults />
       <TestimonialsSection />
       <ResultSection />

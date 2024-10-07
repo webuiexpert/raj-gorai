@@ -81,7 +81,7 @@ function TestimonialsSection() {
   };
   return (
     <div id="reviews" className="w-full h-auto">
-      <div className="max-w-[1320px] mx-auto text-white lg:pb-20 lg:py-0 pt-5 pb-10 lg:pt-0 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
+      <div className="max-w-[1320px] mx-auto text-white lg:py-20 pt-5 pb-10 lg:pt-0 flex flex-col items-start lg:px-0 md:px-8 sm:px-6 px-4">
         
         <div className="testCols grid grid-cols-1">
         <h2 className="lg:text-5xl text-[42px] leading-[1.2em] text-black text-start font-extrabold ">Testimonials</h2>
