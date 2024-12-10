@@ -2,7 +2,8 @@ import React from "react";
 import PersonalImage from "../assets/Raj-gorai-img.png";
 import { PopupButton } from "react-calendly";
 import { motion } from "framer-motion"
-
+import { IoIosMail } from "react-icons/io";
+import { MdLocalPhone } from "react-icons/md";
 
 function HeroSection() {
   return (
@@ -17,6 +18,10 @@ function HeroSection() {
           Wants to boost your brand identity/sales or Rank higher on Google? No
           problem.
         </h5>
+        <div className="contact-links mb-4">
+        <a href="tel:+91-9115144232" className="flex gap-2 text-[32px] items-center">  <MdLocalPhone /> <p className="text-[24px] font-mono hover:underline duration-500">+91-9115144232</p></a>
+        <a href="mailto:auditseoexperts@gmail.com" className="flex gap-2 text-[38px] items-center"> <IoIosMail /> <p className="text-[24px] font-mono hover:underline duration-500">auditseoexperts@gmail.com</p></a>
+        </div>
         <div className="btnBox lg:mt-0 mt-5 gap-10 lg:flex justify-between">
           <div className="letGoBtn w-fit relative">
             <a href="https://api.whatsapp.com/send/?phone=919115144232&text&type=phone_number&app_absent=0">
