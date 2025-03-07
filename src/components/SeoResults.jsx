@@ -11,50 +11,50 @@ import React from 'react'
 
 const SRdata = [
     {
-      title: "Keywords & there rankings – Results shown as per September 2024",
+      title: "Keywords & theire rankings – Results shown as per September 2025",
       domain: "https://1stopdic.com/",
       SRImg: SRimg0,
       "list": ['driver improvement class Hampton VA - #1', 'Virginia Audly Driver Education Online Course - #2', 'Virginia Teen & Adult Driver Education Online Course - #2', '8 hour driver manual course online - #2', ]
     },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "https://www.paradisegalleries.com/",
         SRImg: SRimg1,
         "list": ['Affordable reborn dolls - #1', 'Awareness doll - #1', 'reborn dolls under $99 - #1', 'vintage paradise galleries dolls - #1']
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "https://www.applianceallservice.ca/",
         SRImg: SRimg2,
         "list": ['In shop appliance repair - #1', 'used appliances repair & sales - #1', 'Awareness doll - #1', 'Used Appliances and Appliance Repair For Property Managers - #1']
 
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "http://www.adora.com/",
         SRImg: SRimg3,
         "list": ['doll toys and accessories - #1', 'machine washable toys dolls - #1', 'amazing dolls & accessories - #1', 'color changing doll toys - #1']
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "https://www.xcelwetsuits.com.au/",
         SRImg: SRimg4,
         "list": ['Xcel women wetsuit - #1', 'Xcel winter wetsuit - #1', 'Drylock wetsuit - #1', 'Drylock boots - #1']
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         "domain": "https://zoozbikes.com.au/",
         SRImg: SRimg5,
         "list": ['zooz bike accessories - #1', 'max 250 electric bike - #1', 'e bike 250 - #1', 'zooz bikes australia - #1']
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "https://naughty.pizza/",
         SRImg: SRimg6,
         "list": ['Pizzeria contemporanea bedford - #1', ' oven fresh pizza bedford - #1', 'Authentic Italian pizza restaurant bedford - #1', 'Naughty pizza dubai - #1']
       },
     {
-        title: "Keywords & there rankings – Results shown as per September 2024",
+        title: "Keywords & theire rankings – Results shown as per September 2025",
         domain: "http://www.3dvisionservices.com/",
         SRImg: SRimg7,
         "list": ['Virtual tours for Restaurants - #1', 'Restaurants 3d virtual tours - #1', 'Restaurants 360 tours - #1', 'Restaurants virtual tours - #1']

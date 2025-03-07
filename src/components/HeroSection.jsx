@@ -15,7 +15,7 @@ function HeroSection() {
         <h2 className="lg:block hidden">Strategiest from India.</h2>
         <h2 className="lg:hidden block">a Digital Marketing & Sales Strategiest from India.</h2>
         <h5 className="lg:my-4 lg:w-[738px] lg:text-[24px] text-[18px] font-extrabold lg:leading-[1.2em]">
-          Wants to boost your brand identity/sales or Rank higher on Google? No
+          Want to boost your brand identity/sales or Rank higher on Google? No
           problem.
         </h5>
         <div className="contact-links mb-4">

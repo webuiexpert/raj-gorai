@@ -26,9 +26,9 @@ function AboutSection() {
           </button>
         </div>
         <div className="expYear lg:w-1/2 lg:pl-10 flex text-[14px] flex-col gap-5">
-          <div className="2019 flex flex-col items-start">
+          <div className="2023 flex flex-col items-start">
             <div className="innerCol flex items-center gap-2">
-              <h3 className="text-[26px] leading-[1em] font-bold">2019</h3>
+              <h3 className="text-[26px] leading-[1em] font-bold">2023</h3>
               <div className="w-7 h-[3px] bg-black"></div>
               <h3 className="text-[26px] font-bold leading-[1em]">Present</h3>
             </div>
@@ -38,6 +38,18 @@ function AboutSection() {
             <p className="lg:text-[16px] text-[14px] text-[#2d2d2d]">
               I worked as Manager of SEO. Leading a Team of 10+ SEO specialists
               & 20 active clients.
+            </p>
+          </div>
+          <div className="20-23 flex flex-col items-start">
+            <div className="innerCol flex items-center gap-2">
+              <h3 className="text-[26px] leading-[1em] font-bold">2020</h3>
+              <div className="w-7 h-[3px] bg-black"></div>
+              <h3 className="text-[26px] font-bold leading-[1em]">2023</h3>
+            </div>
+            <h4 className="lg:text-[20px] text:[18px] font-bold">
+            Digital Marketing Manager at CSSHouse.</h4>
+            <p className="lg:text-[16px] text-[14px] text-[#2d2d2d]">
+            I worked as Digital Marketing Manager for SEO & PPC projects. Handled 70+ projects of SEO, Google Ads, Facebook Ads and Email Marketing with Team of 10+ SEO & PPC specialists and 40 active clients.
             </p>
           </div>
           <div className="13-20 flex flex-col items-start">
