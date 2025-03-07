@@ -19,7 +19,7 @@ function AboutSection() {
           I’m skilled at developing strategies and project roadmaps using the latest trends and tools in digital marketing. My expertise spans across brand optimization, SEO, PPC campaign management, and advanced web analytics, allowing me to create tailored strategies that boost online presence and performance.
           </p>
           <p className="lg:text-[18px] text-[#4c4040] text-[16px] leading-[1.5em] mt-5 pr-4">
-          Whether it's running successful SEO and PPC campaigns, optimizing user journeys, or leading social media, content, and email marketing initiatives, I’ve successfully managed multiple projects that have led to measurable improvements in brand awareness and business outcomes.
+          Whether it's running successful SEO and PPC campaigns, optimizing user journeys, or leading social media, content, and email marketing initiatives, I’ve successfully managed multiple projects that have lead to measurable improvements in brand awareness and business outcomes.
           </p>
           <button className="mt-5 text-[18px] leading-8 px-8 py-2 border text-white font-bold bg-[#13a300]">
             <a href="https://www.thecsshouse.com/wp-content/uploads/2024/07/Raj__Gorai_-_Digital_Marketing__Sales_Strategist_Freelancer.pdf" target="_black">Download Resume</a>

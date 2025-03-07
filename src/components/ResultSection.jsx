@@ -6,7 +6,7 @@ function ResultSection() {
   return (
     <div className="solveBtn w-full bg-[#174153] text-white lg:py-20 py-10 flex flex-col items-center lg:px-0 md:px-8 sm:px-6 px-4">
     <h2 className="lg:text-[3.5rem] lg:leading-[4.75rem] leading-[3rem] text-[44px] text-center font-bold ">
-    Want Similler Results?
+    Want Similar Results?
     </h2>
     <p className="lg:text-[22px] text-[16px] sm:text-[20px] text-center lg:mt-0 mt-2">Supercharge Your SEO Campaign Today!</p>
     <p className="lg:text-[22px] text-[16px] sm:text-[20px] text-center">Get Free Consultation</p>
